@@ -18,7 +18,7 @@ class NXCModule:
     """
 
     name = "keepass_trigger"
-    description = "Set up a malicious KeePass trigger to export the database in cleartext."
+    description = "设置恶意KeePass触发器以明文导出数据库"
     supported_protocols = ["smb"]
     # while the module only executes legit powershell commands on the target (search and edit files)
     # some EDR like Trend Micro flag base64-encoded powershell as malicious

@@ -22,7 +22,7 @@ class NXCModule:
     """
 
     name = "spooler"
-    description = "Detect if print spooler is enabled or not"
+    description = "检测打印后台处理程序是否启用"
     supported_protocols = ["smb", "wmi"]
     opsec_safe = True
     multiple_hosts = True

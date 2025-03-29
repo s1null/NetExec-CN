@@ -21,7 +21,7 @@ class NXCModule:
     """Enumerate MSSQL privileges and exploit them"""
 
     name = "mssql_priv"
-    description = "Enumerate and exploit MSSQL privileges"
+    description = "枚举和利用MSSQL权限"
     supported_protocols = ["mssql"]
     opsec_safe = True
     multiple_hosts = True

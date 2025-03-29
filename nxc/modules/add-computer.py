@@ -13,7 +13,7 @@ class NXCModule:
     """
 
     name = "add-computer"
-    description = "Adds or deletes a domain computer"
+    description = "添加或删除域计算机"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = False

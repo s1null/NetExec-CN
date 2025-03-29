@@ -23,7 +23,7 @@ class NXCModule:
     """
 
     name = "mremoteng"
-    description = "Dump mRemoteNG Passwords in AppData and in Desktop / Documents folders (digging recursively in them) "
+    description = "在AppData和桌面/文档文件夹中递归搜索并转储mRemoteNG密码"
     supported_protocols = ["smb"]
     opsec_safe = True 
     multiple_hosts = True

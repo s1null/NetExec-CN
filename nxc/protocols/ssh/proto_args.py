@@ -3,23 +3,23 @@ from nxc.helpers.args import DisplayDefaultsNotNone
 
 
 def proto_args(parser, parents):
-    ssh_parser = parser.add_parser("ssh", help="own stuff using SSH", parents=parents, formatter_class=DisplayDefaultsNotNone)
-    ssh_parser.add_argument("--key-file", type=str, help="Authenticate using the specified private key. Treats the password parameter as the key's passphrase.")
-    ssh_parser.add_argument("--port", type=int, default=22, help="SSH port")
-    ssh_parser.add_argument("--ssh-timeout", help="SSH connection timeout", type=int, default=15)
-    sudo_check_arg = ssh_parser.add_argument("--sudo-check", action="store_true", help="Check user privilege with sudo")
-    sudo_check_method_arg = ssh_parser.add_argument("--sudo-check-method", action=get_conditional_action(_StoreAction), make_required=[], choices={"sudo-stdin", "mkfifo"}, default="sudo-stdin", help="method to do with sudo check (mkfifo is non-stable, probably you need to execute once again if it failed)'")
-    ssh_parser.add_argument("--get-output-tries", type=int, default=5, help="Number of times with sudo command tries to get results")
+    ssh_parser = parser.add_parser("ssh", help="使用SSH协议攻击目标", parents=parents, formatter_class=DisplayDefaultsNotNone)
+    ssh_parser.add_argument("--key-file", type=str, help="使用指定的私钥进行认证。将密码参数视为密钥的口令")
+    ssh_parser.add_argument("--port", type=int, default=22, help="SSH端口")
+    ssh_parser.add_argument("--ssh-timeout", help="SSH连接超时", type=int, default=15)
+    sudo_check_arg = ssh_parser.add_argument("--sudo-check", action="store_true", help="使用sudo检查用户权限")
+    sudo_check_method_arg = ssh_parser.add_argument("--sudo-check-method", action=get_conditional_action(_StoreAction), make_required=[], choices={"sudo-stdin", "mkfifo"}, default="sudo-stdin", help="执行sudo检查的方法（mkfifo不稳定，如果失败可能需要再次执行）")
+    ssh_parser.add_argument("--get-output-tries", type=int, default=5, help="sudo命令尝试获取结果的次数")
     sudo_check_method_arg.make_required.append(sudo_check_arg)
 
-    files_group = ssh_parser.add_argument_group("Files", "Options for remote file interaction")
-    files_group.add_argument("--put-file", action="append", nargs=2, metavar="FILE", help="Put a local file into remote target, ex: whoami.txt /tmp/whoami.txt")
-    files_group.add_argument("--get-file", action="append", nargs=2, metavar="FILE", help="Get a remote file, ex: /tmp/whoami.txt whoami.txt")
+    files_group = ssh_parser.add_argument_group("文件", "远程文件交互选项")
+    files_group.add_argument("--put-file", action="append", nargs=2, metavar="FILE", help="将本地文件放入远程目标，例如：whoami.txt /tmp/whoami.txt")
+    files_group.add_argument("--get-file", action="append", nargs=2, metavar="FILE", help="获取远程文件，例如：/tmp/whoami.txt whoami.txt")
 
-    cgroup = ssh_parser.add_argument_group("Command Execution", "Options for executing commands")
-    cgroup.add_argument("--codec", default="utf-8", help="Set encoding used (codec) from the target's output. If errors are detected, run chcp.com at the target, map the result with https://docs.python.org/3/library/codecs.html#standard-encodings and then execute again with --codec and the corresponding codec")
-    cgroup.add_argument("--no-output", action="store_true", help="do not retrieve command output")
-    cgroup.add_argument("-x", metavar="COMMAND", dest="execute", help="execute the specified command")
+    cgroup = ssh_parser.add_argument_group("命令执行", "执行命令的选项")
+    cgroup.add_argument("--codec", default="utf-8", help="设置目标输出使用的编码（codec）。如果检测到错误，在目标上运行chcp.com，使用https://docs.python.org/3/library/codecs.html#standard-encodings映射结果，然后使用--codec和相应的编码再次执行")
+    cgroup.add_argument("--no-output", action="store_true", help="不获取命令输出")
+    cgroup.add_argument("-x", metavar="COMMAND", dest="execute", help="执行指定的命令")
 
     return parser
 

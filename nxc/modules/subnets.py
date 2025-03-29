@@ -36,7 +36,7 @@ class NXCModule:
             self.base_dn = module_options["BASE_DN"]
 
     name = "subnets"
-    description = "Retrieves the different Sites and Subnets of an Active Directory"
+    description = "获取Active Directory的不同站点和子网"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = False

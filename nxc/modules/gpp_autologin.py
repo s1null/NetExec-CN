@@ -9,7 +9,7 @@ class NXCModule:
     """
 
     name = "gpp_autologin"
-    description = "Searches the domain controller for registry.xml to find autologon information and returns the username and password."
+    description = "在域控制器上搜索registry.xml以查找自动登录信息并返回用户名和密码"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

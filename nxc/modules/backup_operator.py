@@ -11,7 +11,7 @@ from nxc.paths import NXC_PATH
 
 class NXCModule:
     name = "backup_operator"
-    description = "Exploit user in backup operator group to dump NTDS @mpgn_x64"
+    description = "利用备份操作员组中的用户导出NTDS @mpgn_x64"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

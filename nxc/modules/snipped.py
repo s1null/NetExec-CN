@@ -7,7 +7,7 @@ from nxc.paths import NXC_PATH
 class NXCModule:
 
     name = "snipped"
-    description = "Downloads screenshots taken by the (new) Snipping Tool."
+    description = "下载由(新)截图工具拍摄的屏幕截图"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

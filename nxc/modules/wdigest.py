@@ -7,7 +7,7 @@ import contextlib
 
 class NXCModule:
     name = "wdigest"
-    description = "Creates/Deletes the 'UseLogonCredential' registry key enabling WDigest cred dumping on Windows >= 8.1"
+    description = "创建/删除'UseLogonCredential'注册表项，启用Windows 8.1及更高版本上的WDigest凭据转储"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

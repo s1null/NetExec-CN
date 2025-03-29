@@ -1,6 +1,6 @@
 class NXCModule:
     name = "petitpotam"
-    description = "[REMOVED] Module to check if the DC is vulnerable to PetitPotam, credit to @topotam"
+    description = "[已移除] 检查DC是否易受PetitPotam漏洞攻击的模块，感谢@topotam"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

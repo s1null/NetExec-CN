@@ -9,7 +9,7 @@ from nxc.helpers.powershell import get_ps_script
 
 class NXCModule:
     name = "msol"
-    description = "Dump MSOL cleartext password from the localDB on the Azure AD-Connect Server"
+    description = "从Azure AD-Connect服务器的本地数据库中转储MSOL明文密码"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

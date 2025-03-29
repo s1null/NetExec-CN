@@ -9,7 +9,7 @@ class NXCModule:
     """
 
     name = "reg-winlogon"
-    description = "Collect autologon credential stored in the registry"
+    description = "收集存储在注册表中的自动登录凭据"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

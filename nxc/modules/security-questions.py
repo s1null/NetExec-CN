@@ -14,7 +14,7 @@ class NXCModule:
     """
 
     name = "security-questions"
-    description = "Gets security questions and answers for users on computer"
+    description = "获取计算机上用户的安全问题和答案"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

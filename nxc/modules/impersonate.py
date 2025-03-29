@@ -12,7 +12,7 @@ from nxc.paths import DATA_PATH
 
 class NXCModule:
     name = "impersonate"
-    description = "List and impersonate tokens to run command as locally logged on users"
+    description = "列出并模拟令牌以以本地登录用户身份运行命令"
     supported_protocols = ["smb"]
     opsec_safe = True  # could be flagged
     multiple_hosts = True

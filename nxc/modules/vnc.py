@@ -22,7 +22,7 @@ class NXCModule:
     """
 
     name = "vnc"
-    description = "Loot Passwords from VNC server and client configurations"
+    description = "从VNC服务器和客户端配置中获取密码"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

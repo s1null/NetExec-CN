@@ -9,7 +9,7 @@ class NXCModule:
     Module by @_sandw1ch
     """
     name = "pso"
-    description = "Module to get the Fine Grained Password Policy/PSOs"
+    description = "获取细粒度密码策略/PSO的模块"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = False

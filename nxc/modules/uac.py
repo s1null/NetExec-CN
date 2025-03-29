@@ -6,7 +6,7 @@ from impacket.examples.secretsdump import RemoteOperations
 
 class NXCModule:
     name = "uac"
-    description = "Checks UAC status"
+    description = "检查UAC状态"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

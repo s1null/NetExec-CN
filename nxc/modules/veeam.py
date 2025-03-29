@@ -13,7 +13,7 @@ class NXCModule:
     """Module by @NeffIsBack, @Marshall-Hallenbeck"""
 
     name = "veeam"
-    description = "Extracts credentials from local Veeam SQL Database"
+    description = "从本地Veeam SQL数据库中提取凭据"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

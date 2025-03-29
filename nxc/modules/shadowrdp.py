@@ -5,7 +5,7 @@ from impacket.examples.secretsdump import RemoteOperations
 # Enables or disables shadow RDP
 class NXCModule:
     name = "shadowrdp"
-    description = "Enables or disables shadow RDP"
+    description = "启用或禁用影子RDP"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

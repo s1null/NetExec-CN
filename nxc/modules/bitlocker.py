@@ -6,7 +6,7 @@ from impacket.dcerpc.v5.rpcrt import RPC_C_AUTHN_LEVEL_PKT_PRIVACY
 
 class NXCModule:
     name = "bitlocker"
-    description = "Enumerating BitLocker Status on target(s) If it is enabled or disabled."
+    description = "枚举目标系统上的BitLocker状态，检查其是否启用或禁用"
     supported_protocols = ["smb", "wmi"]
     opsec_safe = True
     multiple_hosts = True

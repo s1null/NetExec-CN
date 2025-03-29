@@ -14,7 +14,7 @@ class NXCModule:
     """
 
     name = "find-computer"
-    description = "Finds computers in the domain via the provided text"
+    description = "通过提供的文本在域中查找计算机"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = False

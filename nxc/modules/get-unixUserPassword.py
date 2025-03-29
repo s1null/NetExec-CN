@@ -10,7 +10,7 @@ class NXCModule:
     """
 
     name = "get-unixUserPassword"
-    description = "Get unixUserPassword attribute from all users in ldap"
+    description = "从LDAP中获取所有用户的unixUserPassword属性"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

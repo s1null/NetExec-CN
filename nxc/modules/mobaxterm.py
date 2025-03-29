@@ -7,7 +7,7 @@ from nxc.protocols.smb.dpapi import collect_masterkeys_from_target, get_domain_b
 
 class NXCModule:
     name = "mobaxterm"
-    description = "Remotely dump MobaXterm credentials via RemoteRegistry or NTUSER.dat export"
+    description = "通过RemoteRegistry或NTUSER.dat导出远程转储MobaXterm凭据"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

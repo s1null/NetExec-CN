@@ -13,7 +13,7 @@ import contextlib
 
 class NXCModule:
     name = "rdp"
-    description = "Enables/Disables RDP"
+    description = "启用/禁用远程桌面协议(RDP)"
     supported_protocols = ["smb", "wmi"]
     opsec_safe = True
     multiple_hosts = True

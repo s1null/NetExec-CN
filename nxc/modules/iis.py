@@ -6,7 +6,7 @@ class NXCModule:
     """
 
     name = "iis"
-    description = "Checks for credentials in IIS Application Pool configuration files using appcmd.exe"
+    description = "使用appcmd.exe检查IIS应用程序池配置文件中的凭据"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

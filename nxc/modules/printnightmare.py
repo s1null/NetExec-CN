@@ -20,7 +20,7 @@ class NXCModule:
     """
 
     name = "printnightmare"
-    description = "Check if host vulnerable to printnightmare"
+    description = "检查主机是否易受printnightmare漏洞攻击"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

@@ -7,7 +7,7 @@ from nxc.paths import DATA_PATH, TMP_PATH
 
 class NXCModule:
     name = "pi"
-    description = "Run command as logged on users via Process Injection"
+    description = "通过进程注入以登录用户身份运行命令"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

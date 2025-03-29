@@ -7,7 +7,7 @@ from nxc.protocols.smb.dpapi import collect_masterkeys_from_target, upgrade_to_d
 
 class NXCModule:
     name = "wifi"
-    description = "Get key of all wireless interfaces"
+    description = "获取所有无线网卡接口的密钥"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

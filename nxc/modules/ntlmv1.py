@@ -11,7 +11,7 @@ class NXCModule:
     """
 
     name = "ntlmv1"
-    description = "Detect if lmcompatibilitylevel on the target is set to lower than 3 (which means ntlmv1 is enabled)"
+    description = "检测目标上的lmcompatibilitylevel是否设置为低于3（表示启用了ntlmv1）"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

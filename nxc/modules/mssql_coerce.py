@@ -4,7 +4,7 @@ class NXCModule:
     """Execute arbitrary SQL commands on the target MSSQL server"""
 
     name = "mssql_coerce"
-    description = "Execute arbitrary SQL commands on the target MSSQL server"
+    description = "在目标MSSQL服务器上执行任意SQL命令"
     supported_protocols = ["mssql"]
     opsec_safe = True
     multiple_hosts = True

@@ -8,7 +8,7 @@ class NXCModule:
     """
 
     name = "enum_trusts"
-    description = "Extract all Trust Relationships, Trusting Direction, and Trust Transitivity"
+    description = "提取所有信任关系、信任方向和信任传递性"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

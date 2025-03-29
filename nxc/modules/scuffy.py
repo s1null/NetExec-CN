@@ -11,7 +11,7 @@ class NXCModule:
     """
 
     name = "scuffy"
-    description = "Creates and dumps an arbitrary .scf file with the icon property containing a UNC path to the declared SMB server against all writeable shares"
+    description = "在所有可写共享上创建和转储带有图标属性的任意.scf文件，其中包含到声明的SMB服务器的UNC路径"
     supported_protocols = ["smb"]
     opsec_safe = False
     multiple_hosts = True

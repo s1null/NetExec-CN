@@ -7,7 +7,7 @@ class NXCModule:
     """Module by @joaovarelas"""
 
     name = "hyperv-host"
-    description = "Performs a registry query on the VM to lookup its HyperV Host"
+    description = "在VM上执行注册表查询以查找其HyperV主机"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

@@ -11,7 +11,7 @@ class NXCModule:
     Module by Brandon Fisher @shad0wcntr0ller
     """
     name = "obsolete"
-    description = "Extract all obsolete operating systems from LDAP"
+    description = "从LDAP中提取所有过时的操作系统"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

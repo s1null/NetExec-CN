@@ -13,7 +13,7 @@ class NXCModule:
     """
 
     name = "webdav"
-    description = "Checks whether the WebClient service is running on the target"
+    description = "检查WebClient服务是否在目标上运行"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

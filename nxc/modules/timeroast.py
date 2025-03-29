@@ -21,7 +21,7 @@ class NXCModule:
     """
 
     name = "timeroast"
-    description = "Timeroasting exploits Windows NTP authentication to request password hashes of any computer or trust account"
+    description = "Timeroasting利用Windows NTP认证请求任何计算机或信任账户的密码哈希"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = False

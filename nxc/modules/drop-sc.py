@@ -10,7 +10,7 @@ class NXCModule:
     """
 
     name = "drop-sc"
-    description = "Drop a searchConnector-ms file on each writable share"
+    description = "在每个可写共享上投放searchConnector-ms文件"
     supported_protocols = ["smb"]
     opsec_safe = False
     multiple_hosts = True

@@ -17,7 +17,7 @@ class NXCModule:
         pass
 
     name = "maq"
-    description = "Retrieves the MachineAccountQuota domain-level attribute"
+    description = "获取域级MachineAccountQuota属性"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = False

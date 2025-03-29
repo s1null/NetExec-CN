@@ -5,7 +5,7 @@ from impacket.examples.secretsdump import RemoteOperations
 
 class NXCModule:
     name = "install_elevated"
-    description = "Checks for AlwaysInstallElevated"
+    description = "检查AlwaysInstallElevated权限"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

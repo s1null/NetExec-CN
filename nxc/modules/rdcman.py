@@ -7,7 +7,7 @@ from nxc.protocols.smb.dpapi import collect_masterkeys_from_target, get_domain_b
 
 class NXCModule:
     name = "rdcman"
-    description = "Remotely dump Remote Desktop Connection Manager (sysinternals) credentials"
+    description = "远程转储Remote Desktop Connection Manager (sysinternals) 凭据"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

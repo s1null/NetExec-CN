@@ -5,7 +5,7 @@ class NXCModule:
     """
 
     name = "link_xpcmd"
-    description = "Run xp_cmdshell commands on a linked SQL server"
+    description = "在链接的SQL服务器上运行xp_cmdshell命令"
     supported_protocols = ["mssql"]
     opsec_safe = False
     multiple_hosts = False

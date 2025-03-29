@@ -12,7 +12,7 @@ from pypykatz.pypykatz import pypykatz
 
 class NXCModule:
     name = "handlekatz"
-    description = "Get lsass dump using handlekatz64 and parse the result with pypykatz"
+    description = "使用handlekatz64获取lsass转储并用pypykatz解析结果"
     supported_protocols = ["smb"]
     opsec_safe = False
     multiple_hosts = True

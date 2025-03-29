@@ -5,7 +5,7 @@ class NXCModule:
     """
 
     name = "exec_on_link"
-    description = "Execute commands on a SQL Server linked server"
+    description = "在链接的SQL服务器上执行命令"
     supported_protocols = ["mssql"]
     opsec_safe = False
     multiple_hosts = False

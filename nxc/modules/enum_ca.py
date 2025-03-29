@@ -22,7 +22,7 @@ class NXCModule:
     }
 
     name = "enum_ca"
-    description = "Anonymously uses RPC endpoints to hunt for ADCS CAs"
+    description = "匿名使用RPC端点搜索ADCS证书颁发机构"
     supported_protocols = ["smb"]  # Example: ['smb', 'mssql']
     opsec_safe = True  # Does the module touch disk?
     multiple_hosts = True  # Does it make sense to run this module on multiple hosts at a time?

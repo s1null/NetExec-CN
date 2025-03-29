@@ -10,7 +10,7 @@ class NXCModule:
     """
 
     name = "firefox"
-    description = "Dump credentials from Firefox"
+    description = "从Firefox转储凭据"
     supported_protocols = ["smb"]
     opsec_safe = True  # Does the module touch disk?
     multiple_hosts = True  # Does it make sense to run this module on multiple hosts at a time?

@@ -5,7 +5,7 @@ class NXCModule:
     """
 
     name = "enum_links"
-    description = "Enumerate linked SQL Servers and their login configurations."
+    description = "枚举链接的SQL服务器及其登录配置"
     supported_protocols = ["mssql"]
     opsec_safe = True
     multiple_hosts = True

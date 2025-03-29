@@ -23,7 +23,7 @@ class NXCModule:
     Original work thankfully taken from @zyn3rgy's Ldap Relay Scan project: https://github.com/zyn3rgy/LdapRelayScan
     """
     name = "ldap-checker"
-    description = "Checks whether LDAP signing and channel binding are required and / or enforced"
+    description = "检查LDAP签名和通道绑定是否必需和/或强制执行"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

@@ -1,6 +1,6 @@
 class NXCModule:
     name = "printerbug"
-    description = "[REMOVED] Module to check if the Target is vulnerable to PrinterBug. Set LISTENER IP for coercion."
+    description = "[已移除] 检查目标是否易受PrinterBug漏洞攻击的模块。设置LISTENER IP用于强制执行"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

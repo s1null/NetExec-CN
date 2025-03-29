@@ -14,7 +14,7 @@ class NXCModule:
     Module by: @shad0wcntr0ller
     """
     name = "pre2k"
-    description = "Identify pre-created computer accounts, save the results to a file, and obtain TGTs for each"
+    description = "识别预创建的计算机账户，将结果保存到文件，并为每个账户获取TGT"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = False

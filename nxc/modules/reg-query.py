@@ -5,7 +5,7 @@ from impacket.examples.secretsdump import RemoteOperations
 
 class NXCModule:
     name = "reg-query"
-    description = "Performs a registry query on the machine"
+    description = "在计算机上执行注册表查询"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

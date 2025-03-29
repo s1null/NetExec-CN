@@ -17,7 +17,7 @@ class NXCModule:
     """
 
     name = "ntdsutil"
-    description = "Dump NTDS with ntdsutil"
+    description = "使用ntdsutil转储NTDS"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = False

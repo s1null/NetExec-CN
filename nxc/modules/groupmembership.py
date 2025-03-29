@@ -13,7 +13,7 @@ class NXCModule:
     """
 
     name = "groupmembership"
-    description = "Query the groups to which a user belongs."
+    description = "查询用户所属的组"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

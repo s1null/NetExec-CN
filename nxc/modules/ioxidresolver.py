@@ -11,7 +11,7 @@ from impacket.dcerpc.v5.dcomrt import IObjectExporter
 
 class NXCModule:
     name = "ioxidresolver"
-    description = "This module helps you to identify hosts that have additional active interfaces"
+    description = "该模块帮助识别具有额外活动接口的主机"
     supported_protocols = ["smb", "wmi"]
     opsec_safe = True
     multiple_hosts = True

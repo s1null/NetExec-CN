@@ -14,7 +14,7 @@ from nxc.protocols.mssql.mssqlexec import MSSQLEXEC
 
 class NXCModule:
     name = "nanodump"
-    description = "Get lsass dump using nanodump and parse the result with pypykatz"
+    description = "使用nanodump获取lsass转储并用pypykatz解析结果"
     supported_protocols = ["smb", "mssql"]
     opsec_safe = False
     multiple_hosts = True

@@ -128,7 +128,7 @@ def initial_run(connection, cursor):
 
 class NXCModule:
     name = "hash_spider"
-    description = "Dump lsass recursively from a given hash using BH to find local admins"
+    description = "使用给定哈希递归转储lsass，通过BH查找本地管理员"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

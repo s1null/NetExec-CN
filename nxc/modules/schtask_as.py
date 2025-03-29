@@ -40,7 +40,7 @@ class NXCModule:
             self.location = module_options["LOCATION"]
 
     name = "schtask_as"
-    description = "Remotely execute a scheduled task as a logged on user"
+    description = "以登录用户身份远程执行计划任务"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = False

@@ -12,7 +12,7 @@ class NXCModule:
     """
 
     name = "user-desc"
-    description = "Get user descriptions stored in Active Directory"
+    description = "获取存储在Active Directory中的用户描述"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

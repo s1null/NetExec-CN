@@ -9,7 +9,7 @@ from nxc.protocols.smb.dpapi import collect_masterkeys_from_target, get_domain_b
 
 class NXCModule:
     name = "wam"
-    description = "Dump access token from Token Broker Cache. More info here https://blog.xpnsec.com/wam-bam/. Module by zblurx"
+    description = "从令牌代理缓存中转储访问令牌。更多信息请参见https://blog.xpnsec.com/wam-bam/。模块由zblurx开发"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

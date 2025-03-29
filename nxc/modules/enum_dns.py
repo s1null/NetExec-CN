@@ -9,7 +9,7 @@ class NXCModule:
     """
 
     name = "enum_dns"
-    description = "Uses WMI to dump DNS from an AD DNS Server"
+    description = "使用WMI从AD DNS服务器转储DNS信息"
     supported_protocols = ["smb", "wmi"]
     opsec_safe = True
     multiple_hosts = True

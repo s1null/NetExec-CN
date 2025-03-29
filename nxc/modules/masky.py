@@ -4,7 +4,7 @@ from nxc.helpers.bloodhound import add_user_bh
 
 class NXCModule:
     name = "masky"
-    description = "Remotely dump domain user credentials via an ADCS and a KDC"
+    description = "通过ADCS和KDC远程转储域用户凭据"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

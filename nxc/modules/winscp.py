@@ -18,7 +18,7 @@ class NXCModule:
     """Module by @NeffIsBack"""
 
     name = "winscp"
-    description = "Looks for WinSCP.ini files in the registry and default locations and tries to extract credentials."
+    description = "在注册表和默认位置查找WinSCP.ini文件，并尝试提取凭据"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

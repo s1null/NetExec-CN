@@ -5,7 +5,7 @@ class NXCModule:
     """
 
     name = "enum_logins"
-    description = "Enumerate SQL Server logins"
+    description = "枚举SQL服务器登录账户"
     supported_protocols = ["mssql"]
     opsec_safe = True
     multiple_hosts = True

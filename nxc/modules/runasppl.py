@@ -6,7 +6,7 @@ from impacket.dcerpc.v5.rrp import DCERPCSessionError
 class NXCModule:
     # Reworked by @Defte_ 13/10/2024 to remove unecessary execute operation
     name = "runasppl"
-    description = "Check if the registry value RunAsPPL is set or not"
+    description = "检查注册表值RunAsPPL是否设置"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

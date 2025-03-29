@@ -14,7 +14,7 @@ from nxc.helpers.bloodhound import add_user_bh
 
 class NXCModule:
     name = "lsassy"
-    description = "Dump lsass and parse the result remotely with lsassy"
+    description = "转储lsass并使用lsassy远程解析结果"
     supported_protocols = ["smb"]
     opsec_safe = True  # writes temporary files, and it's possible for them to not be deleted
     multiple_hosts = True

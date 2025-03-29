@@ -8,7 +8,7 @@ class NXCModule:
     """
 
     name = "test_connection"
-    description = "Pings a host"
+    description = "ping主机"
     supported_protocols = ["smb", "mssql"]
     opsec_safe = True
     multiple_hosts = True

@@ -20,7 +20,7 @@ class NXCModule:
     """
 
     name = "sccm"
-    description = "Find a SCCM infrastructure in the Active Directory"
+    description = "在Active Directory中查找SCCM基础架构"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

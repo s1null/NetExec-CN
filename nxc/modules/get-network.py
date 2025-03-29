@@ -83,7 +83,7 @@ def searchResEntry_to_dict(results):
 
 class NXCModule:
     name = "get-network"
-    description = "Query all DNS records with the corresponding IP from the domain."
+    description = "从域中查询所有DNS记录及其对应的IP"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

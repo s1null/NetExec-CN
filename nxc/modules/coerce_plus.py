@@ -9,7 +9,7 @@ from impacket.uuid import uuidtup_to_bin
 
 class NXCModule:
     name = "coerce_plus"
-    description = "Module to check if the Target is vulnerable to any coerce vulns. Set LISTENER IP for coercion."
+    description = "检查目标是否易受任何强制漏洞攻击。设置LISTENER IP用于强制执行。"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

@@ -11,7 +11,7 @@ class NXCModule:
     """
 
     name = "adcs"
-    description = "Find PKI Enrollment Services in Active Directory and Certificate Templates Names"
+    description = "在Active Directory中查找PKI注册服务和证书模板名称"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = True

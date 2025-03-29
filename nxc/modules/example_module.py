@@ -7,7 +7,7 @@ class NXCModule:
     """
 
     name = "example module"
-    description = "I do something"
+    description = "我做某事"
     supported_protocols = []  # Example: ['smb', 'mssql']
     opsec_safe = True  # Does the module touch disk?
     multiple_hosts = True  # Does it make sense to run this module on multiple hosts at a time?

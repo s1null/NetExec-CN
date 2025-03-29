@@ -10,7 +10,7 @@ class NXCModule:
     """
 
     name = "empire_exec"
-    description = "Uses Empire's RESTful API to generate a launcher for the specified listener and executes it"
+    description = "使用Empire的REST API为指定监听器生成启动器并执行"
     supported_protocols = ["smb", "mssql"]
     opsec_safe = True
     multiple_hosts = True

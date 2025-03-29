@@ -15,7 +15,7 @@ class NXCModule:
     """
 
     name = "laps"
-    description = "Retrieves all LAPS passwords which the account has read permissions for."
+    description = "获取账户具有读取权限的所有LAPS密码"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = False

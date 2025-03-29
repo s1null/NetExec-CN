@@ -10,7 +10,7 @@ class NXCModule:
     """
 
     name = "web_delivery"
-    description = "Kicks off a Metasploit Payload using the exploit/multi/script/web_delivery module"
+    description = "使用exploit/multi/script/web_delivery模块启动Metasploit Payload"
     supported_protocols = ["smb", "mssql"]
     opsec_safe = True
     multiple_hosts = True

@@ -8,7 +8,7 @@ class NXCModule:
     """
 
     name = "met_inject"
-    description = "Downloads the Meterpreter stager and injects it into memory"
+    description = "下载Meterpreter stager并将其注入内存"
     supported_protocols = ["smb", "mssql"]
     opsec_safe = True
     multiple_hosts = True

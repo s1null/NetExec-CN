@@ -197,7 +197,7 @@ class NXCModule:
     """
 
     name = "daclread"
-    description = "Read and backup the Discretionary Access Control List of objects. Be careful, this module cannot read the DACLS recursively, see more explanation in the options."
+    description = "读取和备份对象的自由访问控制列表。请注意，此模块无法递归读取DACL，详见选项中的更多说明。"
     supported_protocols = ["ldap"]
     opsec_safe = True
     multiple_hosts = False

@@ -5,7 +5,7 @@ from impacket.examples.secretsdump import RemoteOperations
 class NXCModule:
     """Module by @Defte_"""
     name = "remote-uac"
-    description = "Enable or disable remote UAC"
+    description = "启用或禁用远程UAC"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

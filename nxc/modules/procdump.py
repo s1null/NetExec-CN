@@ -13,7 +13,7 @@ from datetime import datetime
 
 class NXCModule:
     name = "procdump"
-    description = "Get lsass dump using procdump64 and parse the result with pypykatz"
+    description = "使用procdump64获取lsass转储并用pypykatz解析结果"
     supported_protocols = ["smb"]
     opsec_safe = True  # not really
     multiple_hosts = True

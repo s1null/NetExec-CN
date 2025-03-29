@@ -23,7 +23,7 @@ from impacket.smbconnection import SessionError
 
 class NXCModule:
     name = "remove-mic"
-    description = "Check if host vulnerable to CVE-2019-1040"
+    description = "检查主机是否易受CVE-2019-1040漏洞攻击"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = False

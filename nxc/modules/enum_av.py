@@ -16,7 +16,7 @@ class NXCModule:
     """
 
     name = "enum_av"
-    description = "Gathers information on all endpoint protection solutions installed on the the remote host(s) via LsarLookupNames (no privilege needed)"
+    description = "通过LsarLookupNames收集远程主机上安装的所有终端防护解决方案信息(无需特权)"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

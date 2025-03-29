@@ -1,6 +1,6 @@
 class NXCModule:
     name = "shadowcoerce"
-    description = "[REMOVED] Module to check if the target is vulnerable to ShadowCoerce, credit to @Shutdown and @topotam"
+    description = "[已移除] 检查目标是否易受ShadowCoerce漏洞攻击的模块，感谢@Shutdown和@topotam"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

@@ -11,7 +11,7 @@ class NXCModule:
     """
 
     name = "slinky"
-    description = "Creates windows shortcuts with the icon attribute containing a URI to the specified  server (default SMB) in all shares with write permissions"
+    description = "在所有具有写入权限的共享中创建Windows快捷方式，其图标属性包含指向指定服务器（默认SMB）的URI"
     supported_protocols = ["smb"]
     opsec_safe = False
     multiple_hosts = True

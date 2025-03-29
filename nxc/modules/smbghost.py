@@ -12,7 +12,7 @@ SMBGHOST_PKT = b'\x00\x00\x00\xc0\xfeSMB@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1
 
 class NXCModule:
     name = "smbghost"
-    description = "Module to check for the SMB dialect 3.1.1 and compression capability of the host, which is an indicator for the SMBGhost vulnerability (CVE-2020-0796)."
+    description = "检查主机的SMB方言3.1.1和压缩功能的模块，这是SMBGhost漏洞(CVE-2020-0796)的指标"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

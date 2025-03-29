@@ -7,7 +7,7 @@ from nxc.protocols.smb.dpapi import upgrade_to_dploot_connection
 
 class NXCModule:
     name = "dpapi_hash"
-    description = "Remotely dump Dpapi hash based on masterkeys"
+    description = "远程基于主密钥转储Dpapi哈希"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

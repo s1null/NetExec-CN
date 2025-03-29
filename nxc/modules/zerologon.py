@@ -12,7 +12,7 @@ MAX_ATTEMPTS = 2000  # False negative chance: 0.04%
 
 class NXCModule:
     name = "zerologon"
-    description = "Module to check if the DC is vulnerable to Zerologon aka CVE-2020-1472"
+    description = "检查DC是否易受Zerologon漏洞(CVE-2020-1472)攻击的模块"
     supported_protocols = ["smb", "wmi"]
     opsec_safe = True
     multiple_hosts = False

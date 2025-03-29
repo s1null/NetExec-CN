@@ -5,7 +5,7 @@ from os.path import abspath, join
 
 class NXCModule:
     name = "teams_localdb"
-    description = "Retrieves the cleartext ssoauthcookie from the local Microsoft Teams database, if teams is open we kill all Teams process"
+    description = "从本地Microsoft Teams数据库中获取明文ssoauthcookie，如果Teams正在运行，我们会终止所有Teams进程"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = False

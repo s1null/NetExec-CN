@@ -9,7 +9,7 @@ class NXCModule:
     # Modified by @Defte_ 12/10/2024 to remove unecessary powershell execute command
 
     name = "powershell_history"
-    description = "Extracts PowerShell history for all users and looks for sensitive commands."
+    description = "提取所有用户的PowerShell历史记录并查找敏感命令"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

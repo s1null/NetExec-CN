@@ -15,7 +15,7 @@ class NXCModule:
     """Module by @NeffIsBack"""
 
     name = "putty"
-    description = "Query the registry for users who saved ssh private keys in PuTTY. Download the private keys if found."
+    description = "查询注册表中保存了SSH私钥的PuTTY用户，找到后下载私钥"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

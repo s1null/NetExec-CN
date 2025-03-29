@@ -5,7 +5,7 @@ class NXCModule:
     """
 
     name = "whoami"
-    description = "Get details of provided user"
+    description = "获取提供的用户详细信息"
     supported_protocols = ["ldap"]
     opsec_safe = True  # Does the module touch disk?
     multiple_hosts = True  # Does it make sense to run this module on multiple hosts at a time?

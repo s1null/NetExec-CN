@@ -5,7 +5,7 @@ class NXCModule:
     """
 
     name = "link_enable_xp"
-    description = "Enable or disable xp_cmdshell on a linked SQL server"
+    description = "在链接的SQL服务器上启用或禁用xp_cmdshell"
     supported_protocols = ["mssql"]
     opsec_safe = False
     multiple_hosts = False

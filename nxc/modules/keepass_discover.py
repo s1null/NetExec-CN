@@ -10,7 +10,7 @@ class NXCModule:
     """
 
     name = "keepass_discover"
-    description = "Search for KeePass-related files and process."
+    description = "搜索KeePass相关文件和进程"
     supported_protocols = ["smb"]
     opsec_safe = True  # only legitimate commands are executed on the remote host (search process and files)
     multiple_hosts = True

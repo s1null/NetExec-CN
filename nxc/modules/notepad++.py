@@ -9,7 +9,7 @@ class NXCModule:
     # Module by @Defte_
 
     name = "notepad++"
-    description = "Extracts notepad++ unsaved files."
+    description = "提取notepad++未保存的文件"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True

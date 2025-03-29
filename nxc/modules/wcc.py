@@ -85,7 +85,7 @@ class NXCModule:
     """
 
     name = "wcc"
-    description = "Check various security configuration items on Windows machines"
+    description = "检查Windows机器上的各种安全配置项"
     supported_protocols = ["smb"]
     opsec_safe = True
     multiple_hosts = True
