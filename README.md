@@ -14,12 +14,12 @@ Unix
 ```
 sudo apt install pipx git
 pipx ensurepath
-pipx install git+https://github.com/s1null/NetExec-CN
+pipx install git+https://github.com/s1null/NetExec-zh
 ```
 
 Windows
 ```
 pip install pipx
 python -m pipx ensurepath
-python -m pipx install git+https://github.com/s1null/NetExec-CN
+python -m pipx install git+https://github.com/s1null/NetExec-zh
 ```
