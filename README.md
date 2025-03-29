@@ -8,3 +8,18 @@
 # NetExec
 
 本仓库将netexec help改成中文，方便本地学习使用，而不用每次都去翻阅文档，改版本为2025-3-29
+
+# 使用方法
+Unix
+```
+sudo apt install pipx git
+pipx ensurepath
+pipx install git+https://github.com/s1null/NetExec-CN
+```
+
+Windows
+```
+pip install pipx
+python -m pipx ensurepath
+python -m pipx install git+https://github.com/s1null/NetExec-CN
+```
